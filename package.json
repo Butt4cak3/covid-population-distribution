@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "serve": "parcel serve src/index.html",
+    "start": "node fetchdata.js && npm run-script serve"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   },
